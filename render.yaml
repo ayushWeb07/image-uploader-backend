@@ -16,6 +16,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
+      value: postgres://postgres:Ayush@2007@localhost:5432/postgres
         fromDatabase:
           name: strapi
           property: connectionString
