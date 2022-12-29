@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "strapi_images",
+  "info": {
+    "singularName": "strapi-image",
+    "pluralName": "strapi-images",
+    "displayName": "Strapi Image"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
